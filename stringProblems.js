@@ -1,3 +1,4 @@
+
 // ১. স্ট্রিং ট্রাঙ্কেট করা (Content Preview Task)
 // অনেক সময় ব্লগের টাইটেল বা ডেসক্রিপশন অনেক বড় হয়, যা কার্ডের ভেতর ধরে না। তখন আমাদের সেটা ছোট করে শেষে তিনটি ডট (...) দিতে হয়। const description = "JavaScript is a versatile language that powers the web.";
 
@@ -92,7 +93,6 @@ function messyStringRemove(str) {
       result.push(ch);
     }
   }
-
   return result.join("");
 }
 
@@ -120,4 +120,4 @@ function getDoctorsOnly(list) {
   return doctors;
 }
 
-// console.log(getDoctorsOnly(personList));
+console.log(getDoctorsOnly(personList));
